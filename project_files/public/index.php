@@ -14,7 +14,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
     <div class="container">
         <a href="#" class="navbar-brand">Audio Transcriber</a>
         <button class="navbar-toggler"
@@ -172,6 +172,216 @@
             </div>
             <div class="col-md">
                 <img src="img/react.svg" class="img-fluid" alt="Fundamental">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Question Accordion -->
+<section id="questions" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+            <!-- Item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#question-one"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                        Where exactly are you located?
+                    </button>
+                </h2>
+                <div id="question-one"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="flush-headingOne"
+                     data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda beatae
+                        consequatur debitis dignissimos ea earum eos est et eum explicabo id, illum inventore iure
+                        magni maiores maxime minus natus necessitatibus nemo nostrum odio officia perferendis quaerat
+                        qui reiciendis repellendus suscipit totam veniam veritatis vitae voluptatibus, voluptatum. Deleniti, molestias?
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#question-two"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                        How much does it cost to attend?
+                    </button>
+                </h2>
+                <div id="question-two"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="flush-headingTwo"
+                     data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda beatae
+                        consequatur debitis dignissimos ea earum eos est et eum explicabo id, illum inventore iure
+                        magni maiores maxime minus natus necessitatibus nemo nostrum odio officia perferendis quaerat
+                        qui reiciendis repellendus suscipit totam veniam veritatis vitae voluptatibus, voluptatum. Deleniti, molestias?
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#question-three"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                        What do I need to know?
+                    </button>
+                </h2>
+                <div id="question-three"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="flush-headingThree"
+                     data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda beatae
+                        consequatur debitis dignissimos ea earum eos est et eum explicabo id, illum inventore iure
+                        magni maiores maxime minus natus necessitatibus nemo nostrum odio officia perferendis quaerat
+                        qui reiciendis repellendus suscipit totam veniam veritatis vitae voluptatibus, voluptatum. Deleniti, molestias?
+                    </div>
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#question-four"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                        What do I sign up?
+                    </button>
+                </h2>
+                <div id="question-four"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="flush-headingFour"
+                     data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda beatae
+                        consequatur debitis dignissimos ea earum eos est et eum explicabo id, illum inventore iure
+                        magni maiores maxime minus natus necessitatibus nemo nostrum odio officia perferendis quaerat
+                        qui reiciendis repellendus suscipit totam veniam veritatis vitae voluptatibus, voluptatum. Deleniti, molestias?
+                    </div>
+                </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#question-five"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                        Will you help me find a job?
+                    </button>
+                </h2>
+                <div id="question-five"
+                     class="accordion-collapse collapse"
+                     aria-labelledby="flush-headingFive"
+                     data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores assumenda beatae
+                        consequatur debitis dignissimos ea earum eos est et eum explicabo id, illum inventore iure
+                        magni maiores maxime minus natus necessitatibus nemo nostrum odio officia perferendis quaerat
+                        qui reiciendis repellendus suscipit totam veniam veritatis vitae voluptatibus, voluptatum. Deleniti, molestias?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="instructors" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center text-white">Our Instructors</h2>
+        <p class="lead text-center text-white mb-5">
+            Our instructors all have 5+ years working as a web developer
+        </p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg"
+                             class="rounded-circle mb-3"
+                             alt="Profile Picture">
+                        <h3 class="card-title mb-3">John Doe</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor dolore ea eum
+                            exercitationem in ipsa iure, quam reiciendis repudiandae.
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/11.jpg"
+                             class="rounded-circle mb-3"
+                             alt="Profile Picture">
+                        <h3 class="card-title mb-3">Jane Doe</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor dolore ea eum
+                            exercitationem in ipsa iure, quam reiciendis repudiandae.
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg"
+                             class="rounded-circle mb-3"
+                             alt="Profile Picture">
+                        <h3 class="card-title mb-3">Steve Smith</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor dolore ea eum
+                            exercitationem in ipsa iure, quam reiciendis repudiandae.
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/women/12.jpg"
+                             class="rounded-circle mb-3"
+                             alt="Profile Picture">
+                        <h3 class="card-title mb-3">Sarah Smith</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolor dolore ea eum
+                            exercitationem in ipsa iure, quam reiciendis repudiandae.
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
