@@ -50,7 +50,9 @@
                     We focus on teaching our students the fundamentals of the latest
                     and greatest technologies to prepare them for their first dev role
                 </p>
-                <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+                <button class="btn btn-primary btn-lg"
+                        data-bs-toggle="modal"
+                        data-bs-target="#enroll">Start The Enrollment</button>
             </div>
             <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
         </div>
@@ -396,6 +398,52 @@
         </a>
     </div>
 </footer>
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" role="dialog" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">Fill out this form and we will get back to you</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            First Name:
+                        </label>
+                        <input type="text" class="form-control" id="first-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="last-name" class="col-form-label">
+                            First Name:
+                        </label>
+                        <input type="text" class="form-control" id="first-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label">
+                            First Name:
+                        </label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="col-form-label">
+                            First Name:
+                        </label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Bootstrap Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
