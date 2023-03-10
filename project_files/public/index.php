@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
 <!-- Navbar -->
@@ -66,6 +68,61 @@
                 <div class="input-group-append">
                     <button class="btn btn-dark btn-lg"
                             type="button">Button</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Boxes -->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb3">
+                            Virtual
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, culpa eligendi iure odio quae sapiente?
+                        </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb3">
+                            Hybrid
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, culpa eligendi iure odio quae sapiente?
+                        </p>
+                        <a href="#" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="card-title mb3">
+                            In Person
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, culpa eligendi iure odio quae sapiente?
+                        </p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>
