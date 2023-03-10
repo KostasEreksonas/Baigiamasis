@@ -304,6 +304,7 @@
         </div>
     </div>
 </section>
+<!-- Information -->
 <section id="instructors" class="p-5 bg-primary">
     <div class="container">
         <h2 class="text-center text-white">Our Instructors</h2>
