@@ -10,7 +10,8 @@
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
     <div class="container">
         <a href="#" class="navbar-brand">Audio Transcriber</a>
         <button class="navbar-toggler"
@@ -34,6 +35,24 @@
         </div>
     </div>
 </nav>
+<!-- Showcase -->
+<section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+                <h1>
+                    Become a <span class="text-warning">web developer</span>
+                </h1>
+                <p class="lead my-4">
+                    We focus on teaching our students the fundamentals of the latest
+                    and greatest technologies to prepare them for their first dev role
+                </p>
+                <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+            </div>
+            <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+        </div>
+    </div>
+</section>
 <!-- Bootstrap Javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
