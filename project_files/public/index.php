@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <!-- Navbar -->
@@ -36,7 +37,7 @@
     </div>
 </nav>
 <!-- Showcase -->
-<section class="bg-dark text-light p-5 text-center text-sm-start">
+<section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
     <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
             <div>
@@ -50,6 +51,23 @@
                 <button class="btn btn-primary btn-lg">Start The Enrollment</button>
             </div>
             <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+        </div>
+    </div>
+</section>
+<!-- Newsletter -->
+<section class="bg-primary text-light p-5">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+            <div class="input-group news-input">
+                <input type="text"
+                       class="form-control"
+                       placeholder="Recipient's username"
+                <div class="input-group-append">
+                    <button class="btn btn-dark btn-lg"
+                            type="button">Button</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
