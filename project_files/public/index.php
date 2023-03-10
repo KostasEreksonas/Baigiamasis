@@ -76,7 +76,7 @@
 <!-- Boxes -->
 <section class="p-5">
     <div class="container">
-        <div class="row text-center">
+        <div class="row text-center g-4">
             <div class="col-md">
                 <div class="card bg-dark text-light">
                     <div class="card-body text-center">
@@ -124,6 +124,54 @@
                         <a href="#" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Learn sections -->
+<section id="learn" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <img src="img/fundamentals.svg" class="img-fluid" alt="Fundamental">
+            </div>
+            <div class="col-md p-5">
+                <h2>Learn The Fundamentals</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam inventore, nobis! Hic incidunt maxime nihil.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at delectus eos error et explicabo facere
+                    obcaecati odio temporibus? Amet atque delectus dicta doloremque earum ipsam natus necessitatibus omnis velit.
+                </p>
+                <a href="#" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right"></i>
+                    Read More
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="learn" class="p-5 bg-dark text-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+                <h2>Learn React</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam inventore, nobis! Hic incidunt maxime nihil.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at delectus eos error et explicabo facere
+                    obcaecati odio temporibus? Amet atque delectus dicta doloremque earum ipsam natus necessitatibus omnis velit.
+                </p>
+                <a href="#" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right"></i>
+                    Read More
+                </a>
+            </div>
+            <div class="col-md">
+                <img src="img/react.svg" class="img-fluid" alt="Fundamental">
             </div>
         </div>
     </div>
