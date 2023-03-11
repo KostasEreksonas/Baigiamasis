@@ -1,3 +1,4 @@
 .idea
 db/
 vendor/
+project_files/src/db_config.php
