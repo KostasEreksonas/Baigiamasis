@@ -1,4 +1,5 @@
 <?php
+namespace Baigiamasis;
 require 'db_config.php';
 session_start();
 // Try and connect using the info above.

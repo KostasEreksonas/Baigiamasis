@@ -1,3 +1,7 @@
+<?php
+    namespace Baigiamasis;
+    use Baigiamasis\authenticate;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
