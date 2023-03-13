@@ -1,0 +1,1 @@
+<?phpnamespace Baigiamasis\Repositories;use Baigiamasis\Models\User;class UsersRepository extends BaseRepository implements RepositoryInterface{    protected const TABLE_NAME = 'users';    protected const MODEL_CLASS = User::class;}

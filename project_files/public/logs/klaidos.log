@@ -1,0 +1,5 @@
+[2023-03-13T14:45:19.482435+00:00] Portfolios.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'tautvydas'@'172.19.0.3' (using password: YES) [] []
+[2023-03-13T14:45:24.415910+00:00] Portfolios.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'tautvydas'@'172.19.0.3' (using password: YES) [] []
+[2023-03-13T14:54:08.392904+00:00] Portfolios.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'tautvydas'@'172.19.0.3' (using password: YES) [] []
+[2023-03-13T14:54:12.118256+00:00] Portfolios.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'tautvydas'@'172.19.0.3' (using password: YES) [] []
+[2023-03-13T14:54:20.140606+00:00] Portfolios.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'tautvydas'@'172.19.0.3' (using password: YES) [] []

@@ -1,3 +1,0 @@
-# Baigiamasis
-
-Baigiamasis darbas
